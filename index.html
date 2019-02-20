@@ -7,6 +7,8 @@
 
   <title>My Resume</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Amaranth|Inder" rel="stylesheet">
+
   <link rel="stylesheet" href="css/index.css">
 
   <!--[if lt IE 9]>
@@ -17,15 +19,15 @@
 <body>
   <div class="container">
     <nav>
-      <a href="#">Welcome</a>
-      <a href="#">Skills</a>
-      <a href="#">Work History</a>
-      <a href="#">My Portfolio</a>
-      <a href="#">Contact</a>
+      <a href="#top">Welcome</a>
+      <a href="#skills">Skills</a>
+      <a href="#work-history">Work History</a>
+      <a href="https://jjgorton.github.io/portfolio-website/">My Portfolio</a>
+      <a href="#contact">Contact</a>
     </nav>
 
-    <header>
-      <img src="img/candidJosh.jpg" alt="">
+    <header id="top">
+      <img src="img/candidJosh.jpg" alt="picture of Josh">
       <div class="header-right">
         <h1>Josh Gorton</h1>
         <p>I love to “catch the vision” and help build an exciting and motivated team atmosphere - to build exciting
@@ -34,25 +36,30 @@
 
     </header>
 
-    <section class="skill">
-      <h2>Skills</h2>
-      <ul>
-        <li>insert skill</li>
-        <li>insert skill</li>
-        <li>insert skill</li>
-        <li>insert skill</li>
-        <li>insert skill</li>
-        <li>insert skill</li>
-        <li>insert skill</li>
-      </ul>
+    <section id="skills" class="skills">
+
+      <div class="skills-left">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML, CSS, Javascript, LESS</li>
+          <li>SQL, Python</li>
+          <li>Photoshop</li>
+          <li>Office Suite</li>
+          <li>Csound and Max/MSP</li>
+          <li>Logic Pro, Reaper, and ProTools</li>
+          <li>Live and Studio Audio Recording/Mixing</li>
+        </ul>
+      </div>
+
+      <img src="img/Innovation.png" alt="screenshot of my work">
     </section>
 
-    <section class="work-history">
+    <section id="work-history" class="work-history">
       <h2>Work History</h2>
       a table with drop downs?
     </section>
 
-    <footer class="contact">
+    <footer id="contact" class="contact">
       <h2>Contact</h2>
       <h3>Joshua Gorton</h3>
       <p>Mobile: 321-749-3673</p>

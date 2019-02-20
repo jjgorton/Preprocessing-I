@@ -187,3 +187,43 @@ header .header-right p {
   margin: 50px 0;
   font-family: 'Inder', sans-serif;
 }
+.skills {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-top: 2px solid #17252A;
+  border-bottom: 2px solid #17252A;
+}
+.skills .skills-left h2 {
+  font-size: 5rem;
+  font-family: 'Amaranth', sans-serif;
+  color: #3AAFA9;
+  margin: 20px 0;
+}
+.skills .skills-left ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-between;
+  flex-wrap: wrap;
+  list-style: circle;
+  flex-direction: column;
+}
+.skills .skills-left ul li {
+  font-size: 2.5rem;
+  margin: 10px;
+  font-family: 'Inder', sans-serif;
+  color: #2B7A78;
+}
+.skills img {
+  width: 30%;
+  height: auto;
+  margin: 20px 20px 100px 20px;
+  padding: 20px 20px;
+  border-radius: 50px;
+  background: #FEFFFF;
+  opacity: 0.7;
+}
