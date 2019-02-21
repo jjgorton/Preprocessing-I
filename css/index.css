@@ -227,3 +227,65 @@ header .header-right p {
   background: #FEFFFF;
   opacity: 0.7;
 }
+.work-history {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.work-history h2 {
+  font-size: 5rem;
+  font-family: 'Amaranth', sans-serif;
+  color: #3AAFA9;
+  margin: 20px 20px;
+  order: 1;
+}
+.work-history ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  list-style: circle;
+  flex-direction: column;
+}
+.work-history ul li {
+  font-size: 2.5rem;
+  margin: 10px;
+  font-family: 'Inder', sans-serif;
+  color: #2B7A78;
+}
+.work-history p {
+  width: 80%;
+  font-size: 2rem;
+  font-family: 'Inder', sans-serif;
+  color: #2B7A78;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-top: 2px solid #17252A;
+  border-bottom: 2px solid #17252A;
+}
+.contact h2 {
+  font-size: 5rem;
+  font-family: 'Amaranth', sans-serif;
+  color: #3AAFA9;
+  margin: 20px 0;
+}
+.contact h3,
+.contact p {
+  width: 80%;
+  font-size: 2rem;
+  font-family: 'Inder', sans-serif;
+  color: #2B7A78;
+  padding: 10px;
+}
